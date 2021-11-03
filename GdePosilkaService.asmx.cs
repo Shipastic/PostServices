@@ -20,7 +20,7 @@ namespace ServicePosilka
     // [System.Web.Script.Services.ScriptService]
     public class GdePosilkaService : WebService
     {
-        private static string token = "33fa5d4de52f0693a4466b42998b86f62fa37ff8531f607a5962a7c829f5c2a3bf5988e69833f3c4";
+        private static string token = "number_your_token";
 
         private static string FirstUrl = "https://gdeposylka.ru/api/v4/tracker/";
 
