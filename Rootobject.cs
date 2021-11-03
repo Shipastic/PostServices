@@ -170,7 +170,7 @@ namespace ServicePosilka
             string statusPattern = "Груз выдан";
 
             var pathFileLog2 = @"C:\GdePosilka\ServicePosilka\logTrackerPost.txt";
-            //var pathFileLog2 = @"\\192.168.48.25\reports_recieve\logTrackerPost3.xml";
+            //var pathFileLog2 = @"\\IP-address\reports_recieve\logTrackerPost3.xml";
 
             XmlRootAttribute xRoot = new XmlRootAttribute();
             xRoot.ElementName = "response";
